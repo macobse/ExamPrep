@@ -1,0 +1,177 @@
+.container
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.header_div
+{
+background-color: #b20a8e;
+padding-top: 15px;
+padding-bottom: 10px;
+opacity: 0.7;
+color: #fff;
+}
+
+.header_title
+{
+color: #fff; 
+font-family: 'Droid serif', serif; 
+font-size: 25px; 
+font-weight: 100; 
+font-style: italic; 
+line-height: 44px; 
+margin: 0 0 12px; 
+text-align: center;
+}
+
+.header_subtitle
+{
+color: #fff; 
+font-family: 'Droid serif', serif; 
+font-size: 18px; 
+font-weight: 100; 
+font-style: italic; 
+line-height: 44px; 
+margin: 0 0 12px; 
+text-align: center;
+}
+
+.schoolname
+{
+color: #eff707;	
+}
+
+.booklet_code,.exam_section
+{
+color: #7c795d; 
+font-family: 'Trocchi', serif; 
+font-size: 20px; 
+font-weight: normal; 
+line-height: 42px; 
+margin: 0;
+}
+
+.exam_directions
+{
+ color: #333; 
+ font-family: 'Droid serif', serif; 
+ font-size: 20px; 
+ font-weight: 600; 
+}
+
+
+.questions
+{
+ color: #d04764; 
+ font-family: 'Droid serif', serif; 
+ font-size: 20px; 
+ font-weight: 600; 
+ font-style: italic; 
+ line-height: 44px; 
+}
+
+.answers
+{
+padding-left: 10px;
+ color: #d04764; 
+ font-family: 'Droid serif', serif; 
+ font-size: 20px; 
+ font-weight: 600; 
+ font-style: italic; 
+ line-height: 44px; 
+display: none; 
+}
+
+.form-check-input
+{
+height:   16px;
+width: 16px; 
+}
+
+
+.form-check
+{
+ font-family: 'Droid serif', serif; 
+ font-size: 18px; 
+ font-weight: 500; 
+ font-style: italic; 
+}
+
+.paragraph
+{
+color: #333333; 
+font-family: Georgia, serif; 
+font-size: 18px; 
+line-height: 28px; 
+margin: 0 0 28px;
+}
+
+.clockdiv
+{
+color: #f2f2f2; 
+font-size: 35px; 
+line-height: 34px; 
+font-weight: 700; 
+font-family: 'Libre Baskerville', serif;	
+background: #ff4a4a; 
+padding: 8px; 
+}
+
+.result_p
+{
+ color: #d04764; 
+ font-family: 'Droid serif', serif; 
+ font-size: 20px; 
+ font-weight: 600; 
+ font-style: italic; 
+ line-height: 44px; 
+ text-align:center;
+ padding-top: 20px; 
+}
+
+.result_no
+{
+	font-family: "Lucida Bright", Georgia, serif;
+	font-size: 54px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	padding: 40px;
+}
+
+.in_question_img
+{
+margin-bottom: 20px;	
+margin-top: 10px;
+}
+
+.img-choices
+{
+margin-bottom: 10px;	
+}
+
+.div_frac
+{
+display: inline-block;	
+}
+
+.top_frac
+{
+border-bottom:solid black 1px; 
+display:inline-block; 
+float:left
+}
+
+.bottom_frac
+{ 
+display:inline-block; 
+clear:left; 
+float:left
+}
+
+.infinity
+{
+	font-size: 22px;	
+}

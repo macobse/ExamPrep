@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/desc_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/school" android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:paddingTop="10dp"
+        android:text="School of tomorrow"
+        android:textColor="#802f40"
+        android:textSize="24sp"
+        android:textAllCaps="true"
+        android:layout_below="@+id/desc_image"/>
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/two"
+        android:layout_alignStart="@+id/two"
+
+        android:layout_below="@+id/desc"
+        android:autoSizeTextType="uniform"
+        android:text="Phone:   09-XX-XXX-XXX"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/three"
+        android:layout_alignStart="@+id/three"
+        android:layout_below="@+id/one"
+        android:autoSizeTextType="uniform"
+
+
+        android:padding="2dp"
+        android:paddingTop="10dp"
+        android:text="E-mail:   info@testschool.com"
+        android:textColor="#000"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:text="  For More - Visit Our Website"
+        android:textSize="16sp"
+        android:autoSizeTextType="uniform"
+        android:layout_marginLeft="12dp"
+        android:layout_below="@+id/two"/>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Visit School"
+        android:textSize="20sp"
+        android:id="@+id/website"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/three"
+        />
+
+
+</RelativeLayout>

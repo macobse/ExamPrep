@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">School of Tomorrow</string>
+    <string name="school_info">"<h2> School of tomorrow </h2>
+                                <h3>95 % pass rate on National Exams</h3>
+
+                                <h3>Fully equipped school</h3>
+       <small>Be part of our School!!  ☺</small> </string>
+    <string name="developer_info">Developed by:
+    Armonem Tech Solutions
+        Phone: 09 78 78 81 18
+    </string>
+    <string name="text_field_of_study">Select Field of Study</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_about_us">School of tomorrow</string>
+
+
+</resources>
